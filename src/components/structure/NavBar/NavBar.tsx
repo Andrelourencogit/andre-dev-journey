@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import NavLinks from '../NavLinks';
-import Burger from '../Burger';
+import NavLinks from '../../Generics/NavLinks';
+import Burger from '../../Generics/Burger';
 import './Navbar.css';
 
 const Navbar = () => {

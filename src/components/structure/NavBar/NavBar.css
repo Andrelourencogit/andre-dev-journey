@@ -25,7 +25,7 @@
 }
 
 .nav-links li {
-  position: relative; /* Para usar pseudo-elementos */
+  position: relative;
   margin-left: 2rem;
 }
 
@@ -35,11 +35,10 @@
   font-size: 1.2rem;
   position: relative;
   padding: 0.5rem 1rem;
-  overflow: hidden; /* Para esconder o pseudo-elemento enquanto ele se expande */
-  z-index: 1; /* Certifica-se de que o texto esteja na frente do pseudo-elemento */
+  overflow: hidden;
+  z-index: 1;
 }
 
-/* Efeito hover na borda inferior com degradê */
 .nav-links li a::before {
   content: '';
   position: absolute;

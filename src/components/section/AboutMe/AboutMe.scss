@@ -1,0 +1,33 @@
+.about-me {
+    padding: 2rem;
+    background-color: #f4f4f4; /* Cor de fundo da seção */
+    text-align: center; /* Alinha o texto do título ao centro */
+  }
+  
+  .about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .about-me-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Espaço entre a foto e o texto */
+  }
+  
+  .about-me-photo img {
+    width: 150px; /* Tamanho da foto */
+    height: 150px; /* Tamanho da foto */
+    border-radius: 50%; /* Faz a foto ficar em forma de círculo */
+    object-fit: cover; /* Garante que a imagem se ajuste bem ao círculo */
+    border: 5px solid #00d2df; /* Adiciona uma borda azul de 5px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+  }
+  
+  .about-me-text {
+    max-width: 600px; /* Largura máxima do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+  

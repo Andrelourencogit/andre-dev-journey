@@ -1,6 +1,7 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.scss'
+import AboutMe from './components/section/AboutMe/AboutMe';
 import NavBar  from './components/structure/NavBar/NavBar';
 
 function App() {
@@ -8,8 +9,7 @@ function App() {
     <>
       <div className="App">
       <NavBar/>
-
-      {/* Conteúdo das seções */}
+      <AboutMe/>
       <section id="home"><h2>Bem-vindo ao Início</h2></section>
       <section id="about"><h2>Sobre Mim</h2></section>
       <section id="projects"><h2>Meus Projetos</h2></section>

@@ -1,0 +1,13 @@
+/* Estilos do Navbar */
+.navbar {
+  border-bottom:solid 5px #00d2df;
+  }
+  
+ 
+  /* Responsividade */
+  @media (max-width: 1024px) {
+    .navbar{
+      position: relative;
+    }
+  }
+  

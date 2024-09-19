@@ -2,6 +2,7 @@
 //import viteLogo from '/vite.svg'
 import './App.scss'
 import AboutMe from './components/section/AboutMe/AboutMe';
+import Education from './components/section/Education/Education';
 import NavBar  from './components/structure/NavBar/NavBar';
 
 function App() {
@@ -10,11 +11,7 @@ function App() {
       <div className="App">
       <NavBar/>
       <AboutMe/>
-      <section id="home"><h2>Bem-vindo ao Início</h2></section>
-      <section id="about"><h2>Sobre Mim</h2></section>
-      <section id="projects"><h2>Meus Projetos</h2></section>
-      <section id="skills"><h2>Minhas Habilidades</h2></section>
-      <section id="contact"><h2>Contato</h2></section>
+      <Education/>
     </div>
     </>
   )

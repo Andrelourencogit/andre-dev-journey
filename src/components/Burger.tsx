@@ -1,9 +1,14 @@
-const Burger = ({ isOpen, toggleMenu }) => {
+interface BurgerProps {
+  isOpen: boolean;
+  toggleMenu: () => void;
+}
+
+const Burger = ({ isOpen, toggleMenu }: BurgerProps) => {
   return (
     <div className="burger" onClick={toggleMenu}>
-      <div className={isOpen ? "line open" : "line"}></div>
-      <div className={isOpen ? "line open" : "line"}></div>
-      <div className={isOpen ? "line open" : "line"}></div>
+      <div className={`line ${isOpen ? 'open' : ''}`}></div>
+      <div className={`line ${isOpen ? 'open' : ''}`}></div>
+      <div className={`line ${isOpen ? 'open' : ''}`}></div>
     </div>
   );
 };

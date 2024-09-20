@@ -12,10 +12,8 @@ const AboutMe = () => {
         <div className="about-me-text">
           <p>
             Olá, sou André Lourenço, um desenvolvedor apaixonado por criar soluções inovadoras
-            e impactantes. Com experiência em tecnologias como React, TypeScript e CSS, busco
-            constantemente aprimorar minhas habilidades e contribuir para projetos desafiadores.
-            Além do desenvolvimento, tenho interesse em design e usabilidade, o que me ajuda a
-            criar interfaces intuitivas e atraentes.
+            e impactantes. Atualmente, estou cursando bacharelado em Engenharia de Software na Universidade Federal do Rio Grande do Norte (UFRN), com o objetivo de impactar positivamente a vida das pessoas, criando soluções acessíveis e funcionais.
+            Atuo como desenvolvedor front-end e, paralelamente, estou expandindo meus conhecimentos em back-end com o propósito de me tornar um desenvolvedor full-stack.
           </p>
         </div>
       </div>

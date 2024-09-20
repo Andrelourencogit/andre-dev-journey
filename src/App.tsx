@@ -1,6 +1,7 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.scss'
+import Portfolio from './components/Portfolio/Portfolio';
 import AboutMe from './components/section/AboutMe/AboutMe';
 import Education from './components/section/Education/Education';
 import Experience from './components/section/Experience/Experience';
@@ -16,6 +17,7 @@ function App() {
       <Education/>
       <Experience/>
       <Skills/>
+      <Portfolio/>
     </div>
     </>
   )

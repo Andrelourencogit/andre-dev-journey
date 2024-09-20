@@ -4,14 +4,11 @@ import './Skill.scss';
 // Importação dos ícones
 import bootstrapLogo from '../../../assets/icons/bootstrap.svg';
 import cssLogo from '../../../assets/icons/css.svg';
-import emailLogo from '../../../assets/icons/email.svg';
 import figmaLogo from '../../../assets/icons/figma.svg';
 import gitLogo from '../../../assets/icons/git.svg';
-import githubLogo from '../../../assets/icons/github.svg';
 import htmlLogo from '../../../assets/icons/html.svg';
 import jsLogo from '../../../assets/icons/js.svg';
 import laravelLogo from '../../../assets/icons/laravel.svg';
-import linkedinLogo from '../../../assets/icons/linkedin.svg';
 import nextjsLogo from '../../../assets/icons/nextjs.svg';
 import nodeLogo from '../../../assets/icons/nodejs.svg';
 import npmLogo from '../../../assets/icons/npm.svg';
@@ -25,7 +22,6 @@ import typescriptLogo from '../../../assets/icons/typescript.svg';
 import vueLogo from '../../../assets/icons/vue.svg';
 import vuetifyLogo from '../../../assets/icons/vuetify.svg';
 
-// Dados das habilidades com nome, imagem, descrição e nível de conhecimento
 const skillsData = [
   { 
     name: 'React', 
@@ -153,7 +149,7 @@ const Skills = () => {
   const selectedSkillData = skillsData.find(skill => skill.name === selectedSkill);
 
   return (
-    <section className="skills">
+    <section id="habilidades" className="skills">
       <h2>Habilidades</h2>
       <div className="skills-container">
         <div className="skills-list">

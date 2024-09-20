@@ -1,43 +1,43 @@
 .formacao {
     padding: 2rem;
-    background-color: #4b769f; // Cor de fundo
-    text-align: center; // Centraliza o texto
+    background-color: #4b769f;
+    text-align: center;
   }
   
   .formacao h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: white; // Cor do título
+    color: white;
   }
   
   .education-content {
     display: flex;
     flex-direction: column;
-    align-items: center; // Centraliza os itens
-    gap: 1.5rem; // Espaço entre as entradas
+    align-items: center;
+    gap: 1.5rem;
   }
   
   .school-info {
-    background-color: white; // Fundo branco para destacar a informação
-    border-radius: 8px; // Bordas arredondadas
-    padding: 1.5rem; // Espaçamento interno
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); // Sombra leve
-    width: 100%; // Ajusta a largura
-    max-width: 600px; // Limita a largura máxima
-    transition: transform 0.3s; // Adiciona efeito de transição
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    transition: transform 0.3s;
     &:hover {
-      transform: scale(1.02); // Leve aumento ao passar o mouse
+      transform: scale(1.02);
     }
   }
   
   .school-info h3 {
-    margin: 0.5rem 0; // Margem em cima e embaixo
-    color: #00d2df; // Cor do nome da escola
+    margin: 0.5rem 0;
+    color: #00d2df;
   }
   
   .course,
   .year {
-    margin: 0.25rem 0; // Margem em cima e embaixo
-    color: #666; // Cor mais clara para o texto do curso e ano
+    margin: 0.25rem 0;
+    color: #666;
   }
   

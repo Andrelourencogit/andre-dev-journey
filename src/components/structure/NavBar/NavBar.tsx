@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import NavLinks from '../../Generics/NavLinks';
 import Burger from '../../Generics/Burger';
-import './Navbar.css';
+import './NavBar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

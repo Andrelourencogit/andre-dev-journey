@@ -6,7 +6,7 @@ const experienceData = [
     company: 'DZ LABS - Curitiba',
     period: 'ABRIL DE 2024 - ATUALMENTE',
     activities: [
-      'Desenvolvimento de interfaces responsivas utilizando React e TypeScript;',
+      'Desenvolvimento de interfaces responsivas utilizando React, Nuxt.js, Vue.js, Vuetify e TypeScript;',
       'Implementação de design system para padronizar componentes;',
       'Integração de APIs RESTful para exibição de dados dinâmicos.',
     ],

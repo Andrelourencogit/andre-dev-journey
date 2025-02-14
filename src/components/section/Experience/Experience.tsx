@@ -14,7 +14,7 @@ const experienceData = [
   {
     role: 'Desenvolvedor Front-End - Bolsista',
     company: 'Superintendência de TI | UFRN',
-    period: 'SETEMBRO DE 2020 - ATUALMENTE',
+    period: 'SETEMBRO DE 2020 - AGOSTO DE 2024',
     activities: [
       'Realizar manutenções, construções e otimizações das interfaces de sites, portais utilizando Nuxt.js e Vue.js;',
       'Realizar manutenções e otimizações das interfaces de sites, portais utilizando PHP;',
